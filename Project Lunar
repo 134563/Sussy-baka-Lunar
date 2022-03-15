@@ -1,4 +1,4 @@
--- Made by kipers
+-- Kipers#0985
 
 -- Instances:
 
@@ -173,7 +173,7 @@ Home.Parent = Frame
 Home.Active = true
 Home.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
 Home.BorderSizePixel = 0
-Home.Position = UDim2.new(-0.443113923, 0, -21.0599995, 0)
+Home.Position = UDim2.new(-0.423170894, 0, -21.8199978, 0)
 Home.Size = UDim2.new(0, 690, 0, 384)
 Home.Image = "rbxassetid://2151741365"
 Home.ImageTransparency = 0.600
@@ -817,7 +817,7 @@ Settings.Parent = Frame
 Settings.Active = true
 Settings.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
 Settings.BorderSizePixel = 0
-Settings.Position = UDim2.new(-0.437415987, 0, -21.0600014, 0)
+Settings.Position = UDim2.new(-0.443113983, 0, -21.8200016, 0)
 Settings.Size = UDim2.new(0, 690, 0, 384)
 Settings.Image = "rbxassetid://2151741365"
 Settings.ImageTransparency = 0.600
@@ -905,7 +905,7 @@ shad.TextWrapped = true
 
 -- Scripts:
 
-local function NINSDZL_fake_script() -- home.Script 
+local function AYVFL_fake_script() -- home.Script 
 	local script = Instance.new('Script', home)
 
 	local Home = script.Parent.Parent.Home
@@ -923,8 +923,8 @@ local function NINSDZL_fake_script() -- home.Script
 		
 	end)
 end
-coroutine.wrap(NINSDZL_fake_script)()
-local function CPKONT_fake_script() -- person.Script 
+coroutine.wrap(AYVFL_fake_script)()
+local function BPRYN_fake_script() -- person.Script 
 	local script = Instance.new('Script', person)
 
 	local Profile = script.Parent.Parent.Profile
@@ -942,8 +942,8 @@ local function CPKONT_fake_script() -- person.Script
 	
 	end)
 end
-coroutine.wrap(CPKONT_fake_script)()
-local function MOTI_fake_script() -- code.Script 
+coroutine.wrap(BPRYN_fake_script)()
+local function VOYG_fake_script() -- code.Script 
 	local script = Instance.new('Script', code)
 
 	local Script = script.Parent.Parent.Script
@@ -961,8 +961,8 @@ local function MOTI_fake_script() -- code.Script
 	
 	end)
 end
-coroutine.wrap(MOTI_fake_script)()
-local function OOKMDKB_fake_script() -- people.Script 
+coroutine.wrap(VOYG_fake_script)()
+local function MZAIJNT_fake_script() -- people.Script 
 	local script = Instance.new('Script', people)
 
 	local Credits = script.Parent.Parent.Credits
@@ -980,8 +980,8 @@ local function OOKMDKB_fake_script() -- people.Script
 	
 	end)
 end
-coroutine.wrap(OOKMDKB_fake_script)()
-local function UGWXDC_fake_script() -- Settings1.Script 
+coroutine.wrap(MZAIJNT_fake_script)()
+local function ACYGZ_fake_script() -- Settings1.Script 
 	local script = Instance.new('Script', Settings1)
 
 	local Settings = script.Parent.Parent.Settings
@@ -999,8 +999,8 @@ local function UGWXDC_fake_script() -- Settings1.Script
 	
 	end)
 end
-coroutine.wrap(UGWXDC_fake_script)()
-local function PYCHZA_fake_script() -- close.Script 
+coroutine.wrap(ACYGZ_fake_script)()
+local function RJOPB_fake_script() -- close.Script 
 	local script = Instance.new('Script', close)
 
 	local Home = script.Parent.Parent.Parent.Home
@@ -1018,8 +1018,8 @@ local function PYCHZA_fake_script() -- close.Script
 	
 	end)
 end
-coroutine.wrap(PYCHZA_fake_script)()
-local function VPZXTEE_fake_script() -- close_2.Script 
+coroutine.wrap(RJOPB_fake_script)()
+local function MEHZVS_fake_script() -- close_2.Script 
 	local script = Instance.new('Script', close_2)
 
 	local Profile = script.Parent.Parent.Parent.Profile
@@ -1037,8 +1037,8 @@ local function VPZXTEE_fake_script() -- close_2.Script
 	
 	end)
 end
-coroutine.wrap(VPZXTEE_fake_script)()
-local function OUME_fake_script() -- Profile.LocalScript 
+coroutine.wrap(MEHZVS_fake_script)()
+local function VFZYQUX_fake_script() -- Profile.LocalScript 
 	local script = Instance.new('LocalScript', Profile)
 
 	local Profile = script.Parent.Parent.Profile
@@ -1053,8 +1053,8 @@ local function OUME_fake_script() -- Profile.LocalScript
 	Profile.PlayerImage.Image = content
 	Profile.PlayerName.Text = player.Name
 end
-coroutine.wrap(OUME_fake_script)()
-local function GAHGOE_fake_script() -- close_3.Script 
+coroutine.wrap(VFZYQUX_fake_script)()
+local function MARTT_fake_script() -- close_3.Script 
 	local script = Instance.new('Script', close_3)
 
 	local Script = script.Parent.Parent.Parent.Script
@@ -1072,24 +1072,24 @@ local function GAHGOE_fake_script() -- close_3.Script
 	
 	end)
 end
-coroutine.wrap(GAHGOE_fake_script)()
-local function NCUWU_fake_script() -- Button.LocalScript 
+coroutine.wrap(MARTT_fake_script)()
+local function WEMEBWT_fake_script() -- Button.LocalScript 
 	local script = Instance.new('LocalScript', Button)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(NCUWU_fake_script)()
-local function NSLKNL_fake_script() -- Button_2.LocalScript 
+coroutine.wrap(WEMEBWT_fake_script)()
+local function RYZWOP_fake_script() -- Button_2.LocalScript 
 	local script = Instance.new('LocalScript', Button_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/DomainX/main/source',true))()
 	end)
 end
-coroutine.wrap(NSLKNL_fake_script)()
-local function SPEGMW_fake_script() -- Button_3.LocalScript 
+coroutine.wrap(RYZWOP_fake_script)()
+local function IZUGLA_fake_script() -- Button_3.LocalScript 
 	local script = Instance.new('LocalScript', Button_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1284,16 +1284,16 @@ local function SPEGMW_fake_script() -- Button_3.LocalScript
 	
 	end)
 end
-coroutine.wrap(SPEGMW_fake_script)()
-local function JIRXI_fake_script() -- Button_4.LocalScript 
+coroutine.wrap(IZUGLA_fake_script)()
+local function ZWJYBOW_fake_script() -- Button_4.LocalScript 
 	local script = Instance.new('LocalScript', Button_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
 	end)
 end
-coroutine.wrap(JIRXI_fake_script)()
-local function MYOF_fake_script() -- Text.LocalScript 
+coroutine.wrap(ZWJYBOW_fake_script)()
+local function OMQBJLZ_fake_script() -- Text.LocalScript 
 	local script = Instance.new('LocalScript', Text)
 
 	local ReplicatedStorage = game:GetService("ReplicatedStorage")
@@ -1308,8 +1308,8 @@ local function MYOF_fake_script() -- Text.LocalScript
 	local message1 = [[Beyond this door is the<br /><font size="46" color="rgb(255,50,25)">Great Zorgoth...</font> <font size="40">🗡</font>]]
 	AnimateUI.typeWrite(label, message1, 0.05)
 end
-coroutine.wrap(MYOF_fake_script)()
-local function UYUJ_fake_script() -- Text.FunctionScript 
+coroutine.wrap(OMQBJLZ_fake_script)()
+local function VKQVOD_fake_script() -- Text.FunctionScript 
 	local script = Instance.new('LocalScript', Text)
 
 	
@@ -1326,8 +1326,8 @@ local function UYUJ_fake_script() -- Text.FunctionScript
 		end
 		end
 end
-coroutine.wrap(UYUJ_fake_script)()
-local function PKCJD_fake_script() -- Button_5.Script 
+coroutine.wrap(VKQVOD_fake_script)()
+local function HAMSSG_fake_script() -- Button_5.Script 
 	local script = Instance.new('Script', Button_5)
 
 	local Welcome = script.Parent.Parent.Parent.Welcome
@@ -1345,16 +1345,16 @@ local function PKCJD_fake_script() -- Button_5.Script
 	
 	end)
 end
-coroutine.wrap(PKCJD_fake_script)()
-local function ABYGXSS_fake_script() -- Welcome_2.LocalScript 
+coroutine.wrap(HAMSSG_fake_script)()
+local function PDGVAK_fake_script() -- Welcome_2.LocalScript 
 	local script = Instance.new('LocalScript', Welcome_2)
 
 	script.Parent.Button.Visible = false
 	wait(7)
 	script.Parent.Button.Visible = true
 end
-coroutine.wrap(ABYGXSS_fake_script)()
-local function AEMLER_fake_script() -- close_4.Script 
+coroutine.wrap(PDGVAK_fake_script)()
+local function LGEYK_fake_script() -- close_4.Script 
 	local script = Instance.new('Script', close_4)
 
 	local Credits = script.Parent.Parent.Parent.Credits
@@ -1372,8 +1372,8 @@ local function AEMLER_fake_script() -- close_4.Script
 	
 	end)
 end
-coroutine.wrap(AEMLER_fake_script)()
-local function HGDXUX_fake_script() -- close_5.Script 
+coroutine.wrap(LGEYK_fake_script)()
+local function PFIE_fake_script() -- close_5.Script 
 	local script = Instance.new('Script', close_5)
 
 	local Settings = script.Parent.Parent.Parent.Settings
@@ -1391,8 +1391,8 @@ local function HGDXUX_fake_script() -- close_5.Script
 	
 	end)
 end
-coroutine.wrap(HGDXUX_fake_script)()
-local function FYTLB_fake_script() -- Button_6.LocalScript 
+coroutine.wrap(PFIE_fake_script)()
+local function BRRDT_fake_script() -- Button_6.LocalScript 
 	local script = Instance.new('LocalScript', Button_6)
 
 	local Button = script.Parent.Parent.Button
@@ -1408,4 +1408,4 @@ local function FYTLB_fake_script() -- Button_6.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FYTLB_fake_script)()
+coroutine.wrap(BRRDT_fake_script)()
